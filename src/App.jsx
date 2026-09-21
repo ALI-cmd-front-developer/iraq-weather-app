@@ -2,10 +2,9 @@ import { useState } from 'react'
 import './App.css'
 
  function App(){
-    const [count , setCount] = useState (0);
-    <>
-    <p>{count}</p>
-    <p>{setCount}</p>
-    </>
+
+    return (
+
+    )
  }
 export default App;
