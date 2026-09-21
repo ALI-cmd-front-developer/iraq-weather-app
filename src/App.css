@@ -1,0 +1,17 @@
+html {
+    font-family:  'Arial Narrow Bold', sans-serif;color: aliceblue;padding: 12px;border-radius: 12px;
+}
+button {
+    font-size: 19px;
+}
+
+p , span {
+    font-size: 23px;
+}
+
+p {
+    background-color: green;
+}
+span {
+    background-color: blueviolet;
+}
