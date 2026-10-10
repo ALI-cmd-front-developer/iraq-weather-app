@@ -102,6 +102,7 @@ function App() {
       <div className="select-wrapper">
         <select
           id="select"
+          aria-label={t.title}
           value={city}
           onChange={(e) => setCity(e.target.value)}
         >

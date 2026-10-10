@@ -79,8 +79,8 @@ p {
 }
 
 .with-button button {
-  font-size: clamp(0.5em, 0.9vw + 0.6rem, 0.8em);
-  padding: 7px 8px;
+  font-size: clamp(0.9em, 2.9vw + 0.9em, 1em);
+  padding: 10px 14px;
   outline: none;
   border: none;
   border-radius: 4px;
