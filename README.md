@@ -2,7 +2,7 @@
 
 A bilingual (Arabic / English) weather app covering all 18 Iraqi governorates, built with React and the OpenWeather API. Switching language flips the whole interface between RTL and LTR.
 
-**Live demo:** <LIVE_URL>
+**Live demo:** <https://iraq-weather-app.vercel.app/>
 
 ## Features
 
