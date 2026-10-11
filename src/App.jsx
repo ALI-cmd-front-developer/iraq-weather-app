@@ -56,6 +56,7 @@ function App() {
 
   useEffect(() => {
     const controller = new AbortController();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     setError(null);
 
@@ -78,7 +79,7 @@ function App() {
       });
 
     return () => controller.abort();
-  }, [city, language]);
+  }, [API_KEY, city, language]);
   //==================funcs==============================
   useEffect(() => {
     document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
