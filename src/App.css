@@ -98,7 +98,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "temp  icon"
+    "icon  temp"
     "desc  desc"
     "min   max";
   gap: 10px;
